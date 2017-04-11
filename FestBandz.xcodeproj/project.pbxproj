@@ -10,7 +10,6 @@
 		B6AF76571E9429220089B668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF76561E9429220089B668 /* AppDelegate.swift */; };
 		B6AF76591E9429220089B668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF76581E9429220089B668 /* ViewController.swift */; };
 		B6AF765C1E9429220089B668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AF765A1E9429220089B668 /* Main.storyboard */; };
-		B6AF765F1E9429220089B668 /* FestBandz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6AF765D1E9429220089B668 /* FestBandz.xcdatamodeld */; };
 		B6AF76611E9429220089B668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AF76601E9429220089B668 /* Assets.xcassets */; };
 		B6AF76641E9429220089B668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AF76621E9429220089B668 /* LaunchScreen.storyboard */; };
 		B6AF766C1E942DBF0089B668 /* perfectly-timed-photos-part2-14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B6AF766B1E942DBF0089B668 /* perfectly-timed-photos-part2-14.jpeg */; };
@@ -22,7 +21,6 @@
 		B6AF76561E9429220089B668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6AF76581E9429220089B668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6AF765B1E9429220089B668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6AF765E1E9429220089B668 /* FestBandz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FestBandz.xcdatamodel; sourceTree = "<group>"; };
 		B6AF76601E9429220089B668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6AF76631E9429220089B668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6AF76651E9429220089B668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				B6AF76601E9429220089B668 /* Assets.xcassets */,
 				B6AF76621E9429220089B668 /* LaunchScreen.storyboard */,
 				B6AF76651E9429220089B668 /* Info.plist */,
-				B6AF765D1E9429220089B668 /* FestBandz.xcdatamodeld */,
 			);
 			path = FestBandz;
 			sourceTree = "<group>";
@@ -146,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6AF765F1E9429220089B668 /* FestBandz.xcdatamodeld in Sources */,
 				B6AF76591E9429220089B668 /* ViewController.swift in Sources */,
 				B6AF76571E9429220089B668 /* AppDelegate.swift in Sources */,
 				B6AF766E1E942F3B0089B668 /* BandViewController.swift in Sources */,
@@ -313,21 +309,9 @@
 				B6AF766A1E9429220089B668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B6AF765D1E9429220089B668 /* FestBandz.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B6AF765E1E9429220089B668 /* FestBandz.xcdatamodel */,
-			);
-			currentVersion = B6AF765E1E9429220089B668 /* FestBandz.xcdatamodel */;
-			path = FestBandz.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B6AF764B1E9429220089B668 /* Project object */;
 }
